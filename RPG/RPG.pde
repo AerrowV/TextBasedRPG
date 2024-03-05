@@ -98,7 +98,7 @@ void processAtShopState() {
     equipWeaponByName();
   } else if (playerAction.equalsIgnoreCase("leave")) {
     gameState = "inTown";
-    println("Leaving weapon store...");
+    println("Leaving weapon shop...");
     shopDisplayed = false; // Ensure the shop display is refreshed next time
   }
 }
@@ -137,7 +137,7 @@ boolean shopDisplayed = false;
 void handleGameState() {
   switch (gameState) {
   case "start":
-    displayPrompt("Type 'explore' to start exploring, 'town' to visit the town, or 'quit' to exit game.");
+    displayPrompt("Type 'explore' to start exploring the mysteries of the world, 'town' to visit the town, or 'quit' to exit game.");
     break;
   case "exploring":
     explore();
