@@ -14,7 +14,7 @@ class Town {
       println("Weaponsmith James: Hello there young lad whatcha looking for");
       println("Weaponsmith James: I've got these weapons for sale");
       for (int i = 0; i < weaponsForSale.length; i++) {
-        println((i + 1) + ". " + weaponsForSale[i].name + " - Damage: " + weaponsForSale[i].damage + " - Price: " +weaponsForSale[i].price);
+        println((i + 1) + ". " + weaponsForSale[i].name + " - Attack: " + weaponsForSale[i].damage + " - Price: " +weaponsForSale[i].price);
       }
     }
 
