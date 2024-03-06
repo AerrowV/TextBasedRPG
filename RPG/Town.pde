@@ -6,8 +6,11 @@ class Town {
   
   class Shop {
     Weapon[] weaponsForSale = {
-      new Weapon("Iron Sword", 8, 100.0f), // Name, damage, price
-      new Weapon("Ley-Line Infused Obsidian Dual-Axe", 25, 200.0f)
+      new Weapon("Rusty Sword", 3, 40.0f), // Name, damage, price
+      new Weapon("Iron Sword", 8, 250.0f),
+      new Weapon("Katana", 15, 1500.0f),
+      new Weapon("Death Scythe", 23, 3000.0f),
+      new Weapon("Zeus' Dual-Axe", 29, 5000.0f)
     };
 
     void displayWeapons() {
