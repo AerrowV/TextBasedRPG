@@ -1,9 +1,5 @@
 # Text Based RPG
 
-Navn: Asim Kadir Kilic
-
-Studiemail: cph-ak576@cphbusiness.dk
-
 --------------------------------------------------------
 
 Welcome to my.... Text-Based RPG!!!! 
