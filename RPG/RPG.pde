@@ -268,7 +268,7 @@ void fightEnemy() {
   }
 
   // Enemy attacks player
-  int enemyDamage = (int)random(5, 15); 
+  int enemyDamage = (int)random(9, 24); 
   player.health -= enemyDamage; 
   println("The " + currentEnemy.name + " attacks you back dealing " + enemyDamage + " damage.");
 
