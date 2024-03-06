@@ -1,4 +1,4 @@
-# SP1
+# Text Based RPG
 
 Navn: Asim Kadir Kilic
 
