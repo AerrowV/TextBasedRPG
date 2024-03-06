@@ -261,7 +261,7 @@ void fightEnemy() {
   if (currentEnemy.isDefeated()) {
     println(currentEnemy.name + " is defeated!");
     currentEnemy = null;
-    player.addGold(10);
+    player.addGold(random(5, 39));
     println("You find 10 gold on the enemy.");
     gameState = "start";
     return;
